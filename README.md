@@ -1,6 +1,6 @@
 # LiteConfig
 
-LiteConfig is a simple configuration system that uses JSON files to store data in a specific directory.
+LiteConfig is a simple configuration system that uses JSON files to store data in a specific directory. ✨
 
 ## Installation
 
@@ -8,6 +8,25 @@ LiteConfig is a simple configuration system that uses JSON files to store data i
 2. Make sure you have `org.json` as a dependency.
 
 ## Usage
+You can use jitpack to integrate LiteConfig in your maven or gradle project.
+```xml
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.github.unordentlich</groupId>
+            <artifactId>LiteConfig</artifactId>
+            <version>-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+```
+
+If you prefer to use local library management, please check out the releases. 🔥
 
 ### Initialization
 Before using LiteConfig, you need to initialize the system:
