@@ -9,6 +9,7 @@ LiteConfig is a simple configuration system that uses JSON files to store data i
 
 ## Usage
 You can use jitpack to integrate LiteConfig in your maven or gradle project.
+[![](https://jitpack.io/v/unordentlich/LiteConfig.svg)](https://jitpack.io/#unordentlich/LiteConfig)
 ```xml
     <repositories>
         <repository>
